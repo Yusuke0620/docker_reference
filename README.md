@@ -90,12 +90,20 @@ docker container rm { コンテナ名 }
 ```docker
 docker container prune
 ```
+
 <br>
 
 コンテナ強制削除 (動作中Up)
 ```docker
 docker container rm -f { コンテナ名 }
 ```
+<br>
+
+未使用のイメージ、停止中のコンテナ、未使用のネットワーク、ビルドキャッシュを含む、より広範囲の削除
+```docker
+docker system prune -a
+```
+
 <br>
 
 コンテナ起動 ➡ 停止で自動削除<br>
