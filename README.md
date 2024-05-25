@@ -135,6 +135,7 @@ docker container attach { コンテナ名 }
 ログ確認
 ```docker
 docker logs
+docker container logs { コンテナ名 }
 ```
 <br>
 
