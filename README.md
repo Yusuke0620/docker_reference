@@ -118,7 +118,7 @@ docker container run -d { イメージ名 } { 実行したいコマンド }
 
 すでに実行中のコンテナ内でデタッチドモードで起動し特定のコマンドを実行
 ```docker
-docker container run -d { イメージ名 } { 実行したいコマンド }			
+docker container exec -d { イメージ名 } { 実行したいコマンド }			
 ```
 <br>
 
