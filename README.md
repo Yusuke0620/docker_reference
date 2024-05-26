@@ -113,6 +113,14 @@ docker container run rm { イメージ名 }
 ```
 
 <br>
+
+コンテナ再起動
+※Upにする
+```docker
+docker container restart { コンテナ名 }
+```
+
+<br>
 <br>
 
 ## デタッチドモードとフォアグラウンドモード
