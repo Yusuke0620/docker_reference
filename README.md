@@ -40,6 +40,13 @@ docker image inspect { イメージ名 }
 ```
 
 <br>
+
+指定したイメージの履歴表示
+```docker:Docker
+docker image history { イメージID }
+```
+
+<br>
 <br>
 
 ## コンテナ
